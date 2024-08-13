@@ -68,8 +68,8 @@ body {
 .form-card-title,
 .autoresize {
   width: 100%;
-  border: none; /* Remover bordas padrão */
-  font-size: 1rem; /* Tamanho da fonte */
+  border: none; 
+  font-size: 1rem; 
 }
 
 .form-card-title,
@@ -81,7 +81,7 @@ body {
 
 .form-card-title::placeholder,
 .autoresize::placeholder {
-  color: #999; /* Cor do placeholder */
+  color: #999; 
 }
 
 .btn {
@@ -93,7 +93,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   color: #000000;
-  width: 100%; /* O botão ocupa toda a largura */
+  width: 100%; 
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
