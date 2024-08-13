@@ -1,0 +1,220 @@
+/*
+Algumas informações úteis e dicas:
+  - Fontes disponíveis:
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+  - Cores:
+    Tons de amarelo:
+      #e4fc2b
+      #e0d426
+      #f7d736
+      #e0af26
+      #fcb02b
+    Tons de cinza:
+      #2c2c2c
+      #4c4c4c
+    Cores dos cards:
+      #ead3a7
+      #9de0f5
+      #ef89ba
+      #fae890
+      #abe9c1
+  - Sombra: https://codepen.io/sdthornton/pen/wBZdXq
+ */
+
+ html,
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+.appbar {
+  background-color: #f7d736;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+}
+
+.subtitle {
+  font-family: "Roboto", cursive;
+  font-size: 1.2rem;
+  margin-left: 20px;
+  color: #2c2c2c;
+}
+
+.container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-card {
+  background-color: #fff;
+  border-radius: 10px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 470px; 
+}
+
+.form-card-title,
+.autoresize {
+  width: 100%;
+  border: none; /* Remover bordas padrão */
+  font-size: 1rem; /* Tamanho da fonte */
+}
+
+.form-card-title,
+.titulo {
+  font-size: 1.2rem; 
+  padding-bottom: 1rem;
+  font-weight: bold;
+}
+
+.form-card-title::placeholder,
+.autoresize::placeholder {
+  color: #999; /* Cor do placeholder */
+}
+
+.btn {
+  background-color: #f7d736;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  color: #000000;
+  width: 100%; /* O botão ocupa toda a largura */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  width: 220px;
+  height: 120px;
+}
+
+.card-title {
+  font-family: "Permanent Marker", cursive;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.card-content p {
+  margin: 0;
+  color: #4c4c4c;
+}
+
+.card:nth-child(1) {
+  background-color: #ead3a7;
+}
+
+.card:nth-child(2) {
+  background-color: #ef89ba;
+}
+
+.card:nth-child(3) {
+  background-color: #9de0f5;
+}
+
+.card:nth-child(4) {
+  background-color: #f7d736;
+}
+
+.card:nth-child(5) {
+  background-color: #abe9c1;
+}
+
+.card:nth-child(6) {
+  background-color: #ead3a7;
+}
+
+.card:nth-child(7) {
+  background-color: #ef89ba;
+}
+
+.card:nth-child(8) {
+  background-color: #abe9c1;
+}
+
+.card:nth-child(9) {
+  background-color: #f7d736;
+}
+
+.card:nth-child(10) {
+  background-color: #ef89ba;
+}
+
+ 
+
+/* Você pode usar o CSS comentado abaixo, se ajudar */
+/* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
+/* .btn {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+
+  overflow: hidden;
+
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+
+  background-color: #f7d736;
+
+  transition: background-color 0.3s;
+}
+
+.btn > * {
+  position: relative;
+}
+
+.btn:before {
+  content: "";
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  display: block;
+  width: 0;
+  padding-top: 0;
+
+  border-radius: 100%;
+
+  background-color: rgba(236, 240, 241, 0.3);
+
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.btn:active:before {
+  width: 120%;
+  padding-top: 120%;
+
+  transition: width 0.2s ease-out, padding-top 0.2s ease-out;
+} */
