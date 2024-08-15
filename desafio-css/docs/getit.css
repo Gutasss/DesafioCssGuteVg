@@ -35,6 +35,7 @@ body {
   padding: 10px;
   display: flex;
   align-items: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .logo {
@@ -93,7 +94,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   color: #000000;
-  width: 100%; 
+  width: 100%;  
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -125,46 +126,85 @@ body {
   color: #4c4c4c;
 }
 
-.card:nth-child(1) {
-  background-color: #ead3a7;
+.card-color-1 {
+  background-color: #abe9c1;
 }
 
-.card:nth-child(2) {
+.card-color-2 {
   background-color: #ef89ba;
 }
 
-.card:nth-child(3) {
+.card-color-3 {
   background-color: #9de0f5;
 }
 
-.card:nth-child(4) {
-  background-color: #f7d736;
+.card-color-4 {
+  background-color: #fae890;
 }
 
-.card:nth-child(5) {
-  background-color: #abe9c1;
-}
-
-.card:nth-child(6) {
+.card-color-5 {
   background-color: #ead3a7;
 }
 
-.card:nth-child(7) {
-  background-color: #ef89ba;
+.card-color-6 {
+  background-color: #ead3a7;
 }
 
-.card:nth-child(8) {
+.card-color-7 {
   background-color: #abe9c1;
 }
 
-.card:nth-child(9) {
-  background-color: #f7d736;
-}
-
-.card:nth-child(10) {
+.card-color-8 {
   background-color: #ef89ba;
 }
 
+.card-color-9 {
+  background-color: #fae890;
+}
+
+.card-color-10 {
+  background-color: #9de0f5;
+}
+
+.card-rotation-1 {
+  transform: rotate(1deg)
+}
+
+.card-rotation-2 {
+  transform: rotate(-1deg)
+}
+
+.card-rotation-3 {
+  transform: rotate(-2deg)
+}
+
+.card-rotation-4 {
+  transform: rotate(3deg)
+}
+
+.card-rotation-5 {
+  transform: rotate(4deg)
+}
+
+.card-rotation-6 {
+  transform: rotate(-2deg)
+}
+
+.card-rotation-7 {
+  transform: rotate(-3deg)
+}
+
+.card-rotation-8 {
+  transform: rotate(-1deg)
+}
+
+.card-rotation-9 {
+  transform: rotate(6deg)
+}
+
+.card-rotation-10 {
+  transform: rotate(4deg)
+}
  
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
