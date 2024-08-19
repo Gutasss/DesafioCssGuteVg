@@ -111,8 +111,16 @@ body {
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   padding: 15px;
-  width: 220px;
-  height: 120px;
+  width: 180px;
+  height: 100px;
+}
+
+.card-container .card:nth-child(n+7):nth-child(-n+10) {
+  margin-right: 80px; 
+}
+
+.card-container .card:nth-child(5n) {
+  margin-right: 0;
 }
 
 .card-title {
@@ -124,6 +132,8 @@ body {
 .card-content p {
   margin: 0;
   color: #4c4c4c;
+  font-family: "Permanent Marker", cursive;
+  font-size: 0.9rem;
 }
 
 .card-color-1 {
